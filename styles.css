@@ -1,9 +1,11 @@
 
 /* /* Your CSS Code here. */
-/* .container-fluid{
-	display:flex;
-	
-}  */
+.container-fluid{
+	width: 1200px;
+	flex-flow:row wrap;
+/* 	justify-content:center;
+	align-items:center; */
+} 
 
 img{
     width: 100px;
@@ -15,21 +17,17 @@ img{
 
 .row1{
 	display:flex;
-	flex-flow:row wrap;
 	justify-content:space-between;
 }
 .row2{
 	display:flex;
-	flex-flow:row wrap;
 	justify-content:center;
 }
 .row3{
 	display:flex;
-	flex-flow:row wrap;
 	justify-content:center;
 }
 .row4{
 	display:flex;
-	flex-flow:row wrap;
 	justify-content:center;
 }
