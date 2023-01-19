@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.container-fluid{
+	display:flex;
+	
+}
+
+.row1{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+}
